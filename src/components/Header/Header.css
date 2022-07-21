@@ -1,0 +1,77 @@
+::placeholder{
+    color: #FFFFFF !important;
+ }
+input[placeholder]{
+    color: #FFFFFF !important;
+ 
+}
+input:active,
+input:focus {
+    outline: none !important;
+    /* border: 1px solid #FFFFFF; */
+}
+
+.bg-background {
+  background-color: #0095a0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px 120px;
+  gap: 10px;
+  position: absolute;
+
+height: 94px;
+left: 0px;
+top: 0px;
+}
+.logo{
+font-family: 'Poppins' !important;
+font-style: normal !important;
+font-weight: 700  !important;
+font-size: 31.4118px !important;
+line-height: 47px !important;
+color: white !important;
+}
+.searchArea{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 615px;
+height: 54px;
+}
+.searchBox{
+/* color: #FFFFFF; */
+  background-color: transparent;  
+box-sizing: border-box;
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px 25px;
+gap: 10px;
+
+width: 441px;
+height: 54px;
+
+/* White */
+
+border: 1px solid #FFFFFF;
+/* padding-right: 55px; */
+  background: url("../../assests/svg/searchIcon.svg") no-repeat right;
+  background-size: 30px;
+}
+
+.buttonStyle{
+    width: 164px;
+height: 54px;
+
+/* Brand white cream */
+border: #FFFFFF !important;
+background: #F7F5F2 !important;
+color: #0095a0 !important;
+border-radius: 2px;
+}
