@@ -28,7 +28,7 @@ import { faker } from 'https://cdn.skypack.dev/@faker-js/faker';
     responsive: true,
     plugins: {
       legend: {
-        position: 'left',
+        position: 'bottom',
       },
       title: {
         display: false,
@@ -48,10 +48,14 @@ import { faker } from 'https://cdn.skypack.dev/@faker-js/faker';
     //     backgroundColor: 'rgba(255, 99, 132, 0.5)',
     //   },
       {
-        label: 'Dataset 2',
-        data: labels.map(() => faker.datatype.number({ min: 0, max: 50000,options:15 })),
-        backgroundColor: 'rgba(53, 162, 235, 0.5)',
+        label: 'Data',
+         data: [30000, 32000, 29000, 15000],
+        backgroundColor: '#0095A0',
+        barThickness: 26,
+        
+       
       },
+      
     ],
   };
 const BarChart = () => {
