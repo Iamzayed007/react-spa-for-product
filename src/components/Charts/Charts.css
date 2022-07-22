@@ -8,3 +8,17 @@ height: 334px;
 
 background: #FDFDFF; */
 }
+.barChart{
+    /* display: flex; */
+/* flex-direction: column; */
+/* align-items: flex-start; */
+padding: 0px;
+/* gap: 20px; */
+
+/* position: relative;
+top: 20px; */
+width: 706px;
+height: 334.5px;
+
+background: #FDFDFF;
+}

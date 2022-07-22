@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import PieChart from './PieChart/PieChart';
 import './Charts.css'
+import BarChart from './BarChart/BarChart';
 
 const index = () => {
     return (
@@ -16,12 +17,12 @@ const index = () => {
                 <PieChart/>
                 </div>
                 </Col>
-                <Col md="7">
+                <Col md="7" className="barChart">
                 <div>
                     <h1 className="h1">Conditions</h1>
                 </div>
                 <div>
-
+                <BarChart/>
                 {/* <PieChart/> */}
                 </div>
                 </Col>
